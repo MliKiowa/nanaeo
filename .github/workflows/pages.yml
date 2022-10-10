@@ -20,4 +20,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-      
+      - name: Setup Hexo Blog Dependencies
+        run: bash ./script/Denpent.sh
+      - name: Build with Hexo
+        run: hexo clean && hexo generate
+      - name: Hexo Blog Deploy
+        run: bash ./script/Deploy.sh    

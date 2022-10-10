@@ -4,7 +4,6 @@ rm -rf temp/*
 mv public/* temp
 cd temp 
 git config --global init.defaultBranch main
-git 
 git remote add origin ${GITHUB_URL}
 git branch -M main
 git config --global user.name "Mlikiowa"

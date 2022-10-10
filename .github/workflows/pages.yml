@@ -8,14 +8,6 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest     
@@ -29,34 +21,11 @@ jobs:
         with:
           node-version: 18.x
       - name: Setup Hexo Blog Dependencies
-        run: |
-          npm install hexo-cli -g
-          npm install
-          git clone https://github.com/MliKiowa/BlogFriend
-          cd BlogFriend          
-          mv test/friend.yml ../source/_data/friends.yml
-          cd ..
-          cat source/_data/friends.yml
-          rm -rf BlogFriend
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v1
+        run: | bash ./script/Denpent.sh
       - name: Build with Hexo
         run: |        
           hexo clean
           hexo generate
-          hexo deploy
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: public
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      - name: Deploy Nanaeo
+        run: |        
+          bash ./script/Deploy.sh

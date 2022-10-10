@@ -1,4 +1,5 @@
 cd public
+git config --global init.defaultBranch main
 git init
 GITHUB_URL=https://oauth:${GITHUB_TOKEN}@github.com/Mlikiowa/Mlikiowa.github.io.git
 git remote add origin ${GITHUB_URL}

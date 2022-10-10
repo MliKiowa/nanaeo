@@ -1,0 +1,62 @@
+#safearea
+  @media screen and (max-width: $device-mobile)
+    margin: 0
+    box-shadow: none
+    .body-wrapper
+      padding: 0
+    #l_main
+      article#comments,
+      article#friends,
+      article#post,
+      article#page,
+      article#arc      
+        border-radius: 0
+      article#cat,
+      article#tag
+        margin: 0
+        border-radius: 0
+      .post-wrapper
+        margin: 0 0 16px
+        .post
+          border-radius: 0
+    #l_side
+      .widget.mobile
+        border-radius: 0
+.not-select,
+figcaption,
+footer,
+section,
+details summary,
+.new-meta-box,
+.nav-tabs
+  -webkit-touch-callout none
+  -webkit-user-select none
+  -khtml-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+  & p,
+  & span
+    cursor: $default,default
+  &.default-cursor
+    cursor: $default,default !important
+.allow-select
+  -webkit-touch-callout all
+  -webkit-user-select all
+  -khtml-user-select all
+  -moz-user-select all
+  -ms-user-select all
+  user-select all
+article#post
+  & > h1,h2,h3
+    font-weight: 700
+    background: linear-gradient(to bottom,transparent 60%,rgba(189,202,219,.3) 0) no-repeat
+    display: initial
+    width: auto
+    border-bottom: none
+  & > h3
+    font-weight: 500
+    position: initial
+div.name
+  color: #eea9b8
+  

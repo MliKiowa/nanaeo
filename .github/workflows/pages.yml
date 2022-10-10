@@ -27,5 +27,4 @@ jobs:
           hexo clean
           hexo generate
       - name: Deploy Nanaeo
-        run: |        
-          bash ./script/Deploy.sh
+        run: | bash ./script/Deploy.sh

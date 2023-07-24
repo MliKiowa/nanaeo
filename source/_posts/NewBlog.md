@@ -68,11 +68,11 @@ Hi Hexo,I am Mlikiowa!
 正当我吐槽这么大个github没人发布自动部署脚本的时候，我在github search找到了类似的workflow，但是我已经写完了，难受。
 
 ## 迁移使用
-* 本博客通过以下脚本可以快速迁移，从云端Github下载源码然后在本地进行编写博文,提交后直接在使用action刷新博客。
+* 本博客通过以下脚本可以快速迁移，从云端Github下载源码然后在本地进行编写博文,提交后直接在使用action刷新博客。 (该内容已经失效)
 * **Tips:** 如果你有需要也可以执行以下脚本建立新博客，可以轻松在新设备上运行。
 {% folding bash.sh %}
 ```
-git clone https://github.com/MliKiowa/MliKiowa.github.io
+git clone https://github.com/MliKiowa/nanaeo
 cd MliKiowa.github.io
 npm install
 hexo g

@@ -4,7 +4,7 @@ navbar:
   logo: 
     img: '' # volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png
     icon:
-    title: 'Nano' 
+    title: 'Mlikiowa' 
   menu:
     - name: 博客
       icon: fa-solid fa-rss

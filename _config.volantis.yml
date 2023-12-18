@@ -128,9 +128,9 @@ custom_css:
   #   effect: [shadow] # [shadow, floatable, blur]
   fontfamily:
     logofont:
-      fontfamily: 'Dosis, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      name: 'Dosis'
-      url: volantis-static/media/fonts/Dosis/Dosis-Medium.ttf
+      fontfamily: 'Sotheby'
+      name: 'Sotheby'
+      url: https://nanaeo.cn/asset/Sotheby.ttf
       weight: normal
       style: normal
     bodyfont:

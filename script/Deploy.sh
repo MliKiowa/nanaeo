@@ -1,7 +1,9 @@
 GITHUB_URL=https://oauth:${GITHUB_TOKEN}@github.com/Mlikiowa/Mlikiowa.github.io.git
 git clone ${GITHUB_URL} temp
 rm -rf temp/*
-cp -r public/* temp
+mv public/* temp
+cp -r temp/ public/
+
 cd temp 
 git config --global init.defaultBranch main
 git remote add origin ${GITHUB_URL}

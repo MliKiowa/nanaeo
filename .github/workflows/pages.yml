@@ -29,6 +29,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: bash ./script/Deploy.sh    
+      - name: Setup Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.7"
+          architecture: "x64"
+      - name: Generate Public Files
+        run: |
+          # Restore last modified time
+          git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct" "$path")" "$path"; done
+
+      - name: Run Tools
+        run: |
+          python ./.github/cache.py
+
       - name: NPM Publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}

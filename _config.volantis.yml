@@ -136,7 +136,7 @@ custom_css:
     bodyfont:
       fontfamily: 'Dosis, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'Dosis'
-      url: https://cdn.jsdelivr.net/gh/moieo/moieo@main/moieo.woff2
+      url: https://fastly.jsdelivr.net/gh/moieo/moieo@main/moieo.woff2
       weight: normal
       style: normal
 ## sidebar

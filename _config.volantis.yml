@@ -332,3 +332,4 @@ color_scheme:
     brightness: 70%
 ## cdn_version: false
 content_visibility: true
+volantis_static_cdn: https://fastly.jsdelivr.net/npm/

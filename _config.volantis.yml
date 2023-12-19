@@ -34,7 +34,9 @@ cover:
     others: true
   title: 'Mlikiowa Home Village'
   subtitle: ''
-  background: https://picst.sunbangyan.cn/2023/12/19/e1a85b7ffee8beef520ef52df5c296da.jpeg # https://s2.loli.net/2022/08/09/Zh7waM9cmIPGe3k.jpg
+  background: https://www.freeimg.cn/i/2023/12/19/658140b923d2f.png
+  # https://picst.sunbangyan.cn/2023/12/19/e1a85b7ffee8beef520ef52df5c296da.jpeg 
+  # https://s2.loli.net/2022/08/09/Zh7waM9cmIPGe3k.jpg
   search: A Wonderful Theme for Hexo # search
   features:
     - name: 博客

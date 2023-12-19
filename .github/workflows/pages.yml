@@ -28,3 +28,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: bash ./script/Deploy.sh    
+      - name: NPM Publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+        run: |
+          node ./.github/npm-version-bump.js
+          cd public
+          npm publish --access public
+          rm -rf ./package.json
+          cd ..

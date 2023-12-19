@@ -333,3 +333,21 @@ color_scheme:
 ## cdn_version: false
 content_visibility: true
 volantis_static_cdn: https://fastly.jsdelivr.net/npm/volantis-static/
+csp:
+  enable: true
+  content: "
+    default-src 'self' https:;
+    block-all-mixed-content;
+    base-uri 'self' https:;
+    form-action 'self' https:;
+    worker-src 'self' https:;
+    connect-src 'self' https: *;
+    img-src 'self' data: https: *;
+    media-src 'self' https: *;
+    font-src 'self' data: https: *;
+    frame-src 'self' https: *;
+    manifest-src 'self' https: *;
+    child-src https:;
+    script-src 'self' https: 'unsafe-inline' *;
+    style-src 'self' https: 'unsafe-inline' *;
+  "

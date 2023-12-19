@@ -23,8 +23,6 @@ jobs:
           registry-url: https://registry.npmjs.org
       - name: Setup Hexo Blog Dependencies
         run: bash ./script/Dependent.sh
-      - name: Build with Hexo
-        run: hexo clean && hexo generate
       - name: Hexo Blog Deploy
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

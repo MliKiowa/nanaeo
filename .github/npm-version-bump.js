@@ -1,13 +1,13 @@
 const fs = require('fs/promises')
 
 const pageageFile = {
-  "name": "@mhg/volantis-community",
-  "description": "Volantis Community",
+  "name": "@mlikiowa/nanaeo",
+  "description": "Volantis nanaeo",
   "version": `1.0.${Date.now()}`,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volantis-x/community.git"
+    "url": "git+https://github.com/MliKiowa/nanaeo.git"
   },
   "author": "Volantis Community",
   "keywords": ["Volantis", "Community", "static"],

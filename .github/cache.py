@@ -35,7 +35,7 @@ if "search" in Precache:
 
 fb=fb.replace("::cacheSuffixVersion::",str(random()))
 print(fb)
-f=open("./public/volantis-sw.js","wb")
+f=open("../public/volantis-sw.js","wb")
 f.write(fb.encode("utf-8"))
 f.close()
 print("==================== Precache End ====================")

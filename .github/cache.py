@@ -22,7 +22,7 @@ print("==================== Precache Start ====================")
 walkFile("./public/js/")
 walkFile("./public/css/")
 print(Precache)
-f=open("../public/volantis-sw.js","rb")
+f=open("./public/volantis-sw.js","rb")
 fb = f.read().decode("utf8","ignore")
 f.close()
 
@@ -35,7 +35,7 @@ if "search" in Precache:
 
 fb=fb.replace("::cacheSuffixVersion::",str(random()))
 print(fb)
-f=open("../public/volantis-sw.js","wb")
+f=open("./public/volantis-sw.js","wb")
 f.write(fb.encode("utf-8"))
 f.close()
 print("==================== Precache End ====================")

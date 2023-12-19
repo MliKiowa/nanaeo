@@ -332,4 +332,4 @@ color_scheme:
     brightness: 70%
 ## cdn_version: false
 content_visibility: true
-volantis_static_cdn: https://cdn.bootcdn.net/ajax/libs/hexo-theme-volantis/5.8.0
+volantis_static_cdn: https://cdn.bootcdn.net/ajax/libs/hexo-theme-volantis/5.8.0/

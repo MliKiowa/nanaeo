@@ -7,7 +7,7 @@
 # ------------------------------------------------------------------------------
 
 npm install hexo-cli -g
-npm install
+npm run build
 git clone https://github.com/MliKiowa/BlogFriend
 cd BlogFriend          
 mv test/friend.yml ../source/_data/friends.yml

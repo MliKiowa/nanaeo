@@ -2,7 +2,7 @@ GITHUB_URL=https://oauth:${GITHUB_TOKEN}@github.com/Mlikiowa/Mlikiowa.github.io.
 git clone ${GITHUB_URL} temp
 rm -rf temp/*
 mv public/* temp
-cp -r temp/ public/
+cp -r temp/* public/
 
 cd temp 
 git config --global init.defaultBranch main

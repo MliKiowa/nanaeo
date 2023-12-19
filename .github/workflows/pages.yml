@@ -42,6 +42,7 @@ jobs:
       - name: Run Tools
         run: |
           python ./.github/cache.py
+          ls ./public/
 
       - name: NPM Publish
         env:

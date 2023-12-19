@@ -31,6 +31,7 @@ jobs:
       - name: NPM Publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
         run: |
           node ./.github/npm-version-bump.js
           cd public

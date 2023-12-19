@@ -7,6 +7,7 @@
 # ------------------------------------------------------------------------------
 
 npm install
+npm install hexo-cli -g
 npm run build
 git clone https://github.com/MliKiowa/BlogFriend
 cd BlogFriend          

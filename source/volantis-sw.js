@@ -1,6 +1,6 @@
 // 全站打包上传 npm，sw 并发请求 cdn
 const prefix = 'volantis-nanaeo';
-const cacheSuffixVersion = '00000030-::cacheSuffixVersion::';
+const cacheSuffixVersion = '00000031-::cacheSuffixVersion::';
 const CACHE_NAME = prefix + '-v' + cacheSuffixVersion;
 const PreCachlist = [
   "/css/style.css",
@@ -9,7 +9,7 @@ const PreCachlist = [
 ];
 let NPMMirror = true;
 const NPMPackage = "@mlikiowa/nanaeo";
-let NPMPackageVersion = "1.0.1703042341521";
+let NPMPackageVersion = "1.0.1703057813356";
 let debug = true;
 // location.hostname == 'localhost' && (debug = true) && (NPMMirror = false);
 const handleFetch = async (event) => {

@@ -9,7 +9,7 @@ const PreCachlist = [
 ];
 let NPMMirror = true;
 const NPMPackage = "@mlikiowa/nanaeo";
-let NPMPackageVersion = "1.0.1721720099796";
+let NPMPackageVersion = "1.0.1725627924716";
 let debug = true;
 // location.hostname == 'localhost' && (debug = true) && (NPMMirror = false);
 const handleFetch = async (event) => {

@@ -7,7 +7,7 @@ const PreCachlist = [
   "/js/app.js",
   "/js/search/hexo.js",
 ];
-let NPMMirror = true;
+let NPMMirror = false;
 const NPMPackage = "@mlikiowa/nanaeo";
 let NPMPackageVersion = "1.0.1731067262693";
 let debug = true;

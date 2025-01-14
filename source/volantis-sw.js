@@ -1,6 +1,6 @@
 // 全站打包上传 npm，sw 并发请求 cdn
 const prefix = 'volantis-nanaeo';
-const cacheSuffixVersion = '00000037-::cacheSuffixVersion::';
+const cacheSuffixVersion = '00000038-::cacheSuffixVersion::';
 const CACHE_NAME = prefix + '-v' + cacheSuffixVersion;
 const PreCachlist = [
   "/css/style.css",

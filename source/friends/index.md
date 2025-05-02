@@ -12,7 +12,7 @@ My Friends
 ```
 Name:Mlikiowa Home Village
 description:A little Village With Mlikiowa
-Url:https://nanaeo.cn/
+Url:https://10snow.com/
 avatar(100x100):https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
 siteshot:
 ```

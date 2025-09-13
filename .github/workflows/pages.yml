@@ -36,20 +36,3 @@ jobs:
         run: |
           # Restore last modified time
           git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct" "$path")" "$path"; done
-
-      - name: Run Tools
-        run: |
-          ls ./public/
-          python ./.github/cache.py
-          
-
-      - name: NPM Publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
-        run: |
-          node ./.github/npm-version-bump.js
-          cd public
-          npm publish --access public
-          rm -rf ./package.json
-          cd ..

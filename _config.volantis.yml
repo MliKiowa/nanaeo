@@ -1,10 +1,10 @@
 ## nav
 navbar:
   visiable: auto
-  logo: 
+  logo:
     img: '' # volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png
     icon:
-    title: 'Mlikiowa' 
+    title: 'Mlikiowa'
   menu:
     - name: 博客
       icon: fa-solid fa-rss
@@ -34,9 +34,9 @@ cover:
     others: true
   title: 'Mlikiowa Home Village'
   subtitle: ''
-  background: https://p.sda1.dev/14/9c10c89b76f81a29ebf02802518f7226/%E5%A3%81%E7%BA%B8-6.webp
+  background: https://s2.loli.net/2022/08/09/Zh7waM9cmIPGe3k.jpg
+  # https://p.sda1.dev/14/9c10c89b76f81a29ebf02802518f7226/%E5%A3%81%E7%BA%B8-6.webp
   # https://picss.sunbangyan.cn/2023/12/20/de9130109a61d72b7c26514ffb0b3d53.jpeg
-  # https://www.freeimg.cn/i/2023/12/19/658140b923d2f.png
   # https://picst.sunbangyan.cn/2023/12/19/e1a85b7ffee8beef520ef52df5c296da.jpeg 
   # https://s2.loli.net/2022/08/09/Zh7waM9cmIPGe3k.jpg
   search: A Wonderful Theme for Hexo # search
@@ -53,10 +53,10 @@ cover:
       url: /tags/
     - name: 归档
       img: volantis-static/media/twemoji/assets/svg/1f5c3.svg
-      url: /archives/  
+      url: /archives/
     - name: 友链
       img: volantis-static/media/twemoji/assets/svg/1f497.svg
-      url: /friends/  
+      url: /friends/
     - name: 关于
       img: volantis-static/media/twemoji/assets/svg/1f4ac.svg
       url: /about/
@@ -100,8 +100,8 @@ article:
         enable: true
         content:
           - '博客内容遵循 <a href="/page/cc">署名-非商业性使用-相同方式共享 4.0 国际</a> 协议。'
-        custom: true # 开启后替代上方内容的版权显示                     
-    meta_library:   
+        custom: true # 开启后替代上方内容的版权显示
+    meta_library:
       author:
         avatar: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
         name: Mlikiowa
@@ -111,17 +111,17 @@ article:
         title: '发布于：'
         format: 'll' # 日期格式 http://momentjs.com/docs/
       category:
-        icon: fas fa-folder-open      
+        icon: fas fa-folder-open
       # 文章字数和阅读时长
       wordcount:
         icon_wordcount: fas fa-keyboard
         icon_duration: fas fa-hourglass-half
       # 文章标签
       tags:
-        icon: fas fa-hashtag  
+        icon: fas fa-hashtag
 site_footer:
   layout: [copyright]
-  copyright: '⌘ Hexo With Volantis'  
+  copyright: '⌘ Hexo With Volantis'
 custom_css:
   cursor:
     enable: true
@@ -288,7 +288,7 @@ color_scheme:
     list_hl: 'mix($color-theme, #d9d3f6, 80)'
     # 辅助性文字
     meta: '#888'
-    
+
     # 版权卡片背景色
     copyright_bkg: '#f5f5f5'
   # ------------

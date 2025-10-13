@@ -1,41 +1,44 @@
 ---
 layout: docs
-seo_title: 关于
+seo_title: 关于我想到什么说什么
 bottom_meta: false
 sidebar: []
 twikoo:
   placeholder: 有什么想对我说的呢？
 ---
-## Hi, I'm Mlikiowa! 
-是一位正在创作与做出改变的大学生，正在思考着知识与生活，并且为此刻而庆幸着...
-## Exp
-{% timeline %}
-{% timenode Previous %}
-与Ghost在System游玩,Win7的回忆。
-{% endtimenode %}
-{% timenode 2015 %}
-Win10的时代,在 CoolQ 进行插件开发.
-{% endtimenode %}
-{% timenode 2016 %}
-时间过去一年,很快直接脱离了Plugins的开发,开始开发桌面软件。
-{% endtimenode %}
-{% timenode 2017 %}
-在这个年份,基于Tencent PCQQ 和 Http1.1的协议研究,学习了大量古早时期的前端知识(IE tester甚至还可以运行)。
-{% endtimenode %}
-{% timenode 2018 %}
-前端知识基础之上 缺少后端web开发于是接触了PHP,学习了一些CPP开发经验，并开发桌面动态壁纸项目等玩具
-{% endtimenode %}
-{% timenode 2019 %}
-初中毕业前的学习到此为止,博客从此开始，WordPress -> Typecho -> Hexo
-{% endtimenode %}
-{% timenode 2020 %}
-高中忙忙碌碌
-{% endtimenode %}
-{% timenode 2021 %}
-开始尝试各种新技术新方案 巨大的收获是开始活跃于开源平台 认识了很多朋友.
-{% endtimenode %}
-{% timenode 2022 %}
-学习Python与Nodejs
-{% endtimenode %}
-{% endtimeline %}
 
+## 嗨，我是拾雪
+拾雪 / Mlikiowa 就是我没错了。
+
+目前是在读女大学生，性格上是玻璃心和煤气罐，健康状态不佳。
+
+四川人，专业是计算机科学与技术，千万不要来学，五天早八。
+
+喜欢一些听音乐，看长视频，打羽毛球，四川麻将，番茄小说（其实我什么都看的），还有就是磕CP。
+
+讨厌的是 DDL (怎么又要交作业/报告了)，晚上工作 (如果白天不能完成，请把它留给明天)，短视频（没有Get到想看的想法）
+
+平时不太玩PC游戏，主要是因为...又菜又晕3D
+会玩一些手游：
+- 王者荣耀（有个很菜闺蜜，偶尔会陪她玩）
+- 重返未来 1999 (有被英配吸引到)
+- 光遇（超喜欢在里面到处跑）
+
+
+这个 blog 存在的原因来自于 每一个人都应该有一个属于自己的小天地 的想法诞生。
+
+虽然现在名存实亡存了，但是我还是希望能坚持下去。
+
+### 会写一点代码
+**TypeScript** - 最常用的语言
+- 正在维护 [NapCatQQ](https://github.com/NapNeko/NapCatQQ) 这个开源项目
+- 我讨厌 TypeScript 和 JavaScript，一个都不喜欢
+
+### 未来的想法
+大概是大学毕业后
+
+- [] 毕业后想养一只宠物
+- [] 想到英语国家旅行
+- [] 见一些很久不见的朋友
+- [] 以后工作一定不要早八
+- [] 不止简笔画，我要学画画
